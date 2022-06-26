@@ -6,6 +6,7 @@ public class DecrementingCarousel {
     public static int count = 0;
     public DecrementingCarousel(int capacity) {
         this.array = new int[capacity];
+        count = 0;
 
     }
 

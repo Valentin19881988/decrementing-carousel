@@ -21,11 +21,11 @@ public class CarouselRun {
 
             sum += DecrementingCarousel.array[i];
             // }
-            if (i == 0 && sum == 0) {
+            if (i == 0 && sum == 1) {
                 s = true;
                 DecrementingCarousel.count = 0;   //когда цикл уменьшения закончен, обнуляем счётчик изначально добавленных элементов
                 n = 0; isFinishChek = true;                             //переводим отсчёт к началу массива
-                return -1;
+                return 1;
             }}
             if (sumNull == DecrementingCarousel.count - 1) { //если кол-во нулевых элементов в массиве на 1 меньше количества элементов массива
                 //int tmp = DecrementingCarousel.array[n];
